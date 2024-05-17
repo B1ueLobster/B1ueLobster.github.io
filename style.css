@@ -4,7 +4,7 @@
     box-sizing: auto;
 }
 .nav-menu {
-    background-color: darkseagreen;
+    background-color: gray;
     color: aliceblue;
     margin: auto;
     margin-top: 10px;
@@ -35,7 +35,7 @@ a{
     border-radius: 15px;
     font-size: 20px;
     text-decoration: none;
-    color: rgb(111, 144, 111);
+    color: dimgray;
 }
 
 a:hover{
