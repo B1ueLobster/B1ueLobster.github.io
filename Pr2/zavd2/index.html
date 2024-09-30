@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Групування та Сортування Студентів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            margin: 10px;
+        }
+        .students {
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Студенти</h1>
+        <div>
+            <button id="groupByButton">Групувати за групами</button>
+        </div>
+        <div>
+            <button id="sortByGradeButton">Сортувати за оцінками (спадання)</button>
+        </div>
+        <div id="result" class="students"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
