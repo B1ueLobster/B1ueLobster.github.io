@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <script>
+        function validatePassword() {
+            // Отримуємо пароль від користувача
+            let password = prompt("Введіть пароль для перевірки:");
+
+            // Регулярний вираз для перевірки пароля
+            let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=!]).{8,}$/;
+
+            // Перевіряємо, чи відповідає пароль вимогам
+            let isValid = regex.test(password);
+
+            // Виводимо відповідне повідомлення
+            if (isValid) {
+                alert("Коректний пароль!");
+            } else {
+                alert("Некоректний пароль! Він повинен містити мінімум 8 символів, одну велику літеру, одну малу літеру, одну цифру і один спеціальний символ (@, #, $, %, ^, &, +, =, !).");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="validatePassword()">Перевірити пароль</button>
+</body>
+</html>
