@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreativ Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <div class="header">
+                <h1>Kreativ</h1>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <h2>Let's get you started</h2>
+            <form>
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" placeholder="Ade Tiger">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="yourname@email.com">
+
+                <label for="phone">Phone number</label>
+                <input id="phone" type="tel">
+
+                <label for="password">Create password</label>
+                <input type="password" id="password" placeholder="••••••••••">
+
+                <label for="location">Location (Optional)</label>
+                <select id="location">
+                    <option>Select Location</option>
+                </select>
+
+                <button type="submit">Sign Up</button>
+                <p class="login">Already a user? <a href="#">Login</a></p>
+            </form>
+        </div>
+
+        <div class="quote-section">
+            <blockquote>
+                “Creativity is intelligence having fun”
+            </blockquote>
+            <p>- Albert Einstein</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

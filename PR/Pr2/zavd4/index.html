@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аналіз Даних Про Книги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            margin: 10px;
+        }
+        .books {
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Аналіз книг</h1>
+        <div>
+            <button id="getUnreadBooksButton">Непрочитані книги</button>
+        </div>
+        <div>
+            <input type="text" id="authorInput" placeholder="Введіть ім'я автора">
+            <button id="getBooksByAuthorButton">Книги за автором</button>
+        </div>
+        <div>
+            <button id="getTopRatedBooksButton">Топ-рейтинг книг</button>
+        </div>
+        <div id="result" class="books"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

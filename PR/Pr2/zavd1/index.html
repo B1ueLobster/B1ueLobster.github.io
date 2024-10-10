@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фільтрація та Пошук Товарів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            margin: 10px;
+        }
+        .products {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Товари</h1>
+        <div>
+            <button id="showAvailableProducts">Показати доступні товари</button>
+        </div>
+        <div>
+            <input type="text" id="productNameInput" placeholder="Введіть назву товару">
+            <button id="findProductByName">Знайти товар</button>
+        </div>
+        <div id="result" class="products"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
