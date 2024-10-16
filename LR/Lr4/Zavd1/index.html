@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер температури</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <label for="fahrenheit">Температура за Фаренгейтом</label>
+    <input type="text" id="fahrenheit" placeholder="°F" oninput="validateInput(this); convertToCelsius()">
+    <br>
+    <label for="celsius">Температура за Цельсієм</label>
+    <input type="text" id="celsius" placeholder="°C" oninput="validateInput(this); convertToFahrenheit()">
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

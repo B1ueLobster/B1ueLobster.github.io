@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE>Микола шекета ПІ-21-02</TITLE>
+</head>
+<body>
+    <input type="number" id="num1" placeholder="Введіть перше число">
+    <input type="number" id="num2" placeholder="Введіть друге число">
+    <button onclick="findMax()">Знайти максимальне</button>
+    <p id="result"></p>
+
+    <script>
+        function findMax() {
+            // Отримання значень з текстових полів
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+
+            // Перевірка на коректність введених даних
+            if (isNaN(num1) || isNaN(num2)) {
+                alert('Будь ласка, введіть коректні числа.');
+                return;
+            }
+
+            // Знаходження максимального числа
+            const max = num1 > num2 ? num1 : num2;
+
+            // Виведення результату
+            document.getElementById('result').textContent = `Найбільше число: ${max}`;
+        }
+    </script>
+</body>
+</html>

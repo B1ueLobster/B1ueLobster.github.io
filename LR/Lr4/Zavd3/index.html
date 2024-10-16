@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевірка знання таблиці множення</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Перевірка знання таблиці множення</h1>
+
+    <div>
+        <p>Загальний рахунок: <span id="score">0</span></p>
+        <p id="task">Завдання: ? x ?</p>
+
+        <form id="answersForm">
+            <label>
+                <input type="radio" name="answer" value="" onclick="checkAnswer(this)">
+                <span id="option1"></span>
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="" onclick="checkAnswer(this)">
+                <span id="option2"></span>
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="" onclick="checkAnswer(this)">
+                <span id="option3"></span>
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="" onclick="checkAnswer(this)">
+                <span id="option4"></span>
+            </label>
+        </form>
+
+        <p id="result"></p>
+
+        <button onclick="nextTask()">Наступне завдання</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

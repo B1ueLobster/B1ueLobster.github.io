@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE>Микола шекета ПІ-21-02</TITLE>
+</head>
+<body>
+  <button onclick="showConfirmDialog()">Показати діалогове вікно</button>
+
+  <script>
+    function showConfirmDialog() {
+      const result = confirm("Ви впевнені?");
+      if (result) {
+        alert("Ви натиснули кнопку 'Ок'");
+      } else {
+        alert("Ви натиснули кнопку 'Відміна'");
+      }
+    }
+  </script>
+</body>
+</html>

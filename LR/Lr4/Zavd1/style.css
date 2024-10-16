@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 225px; 
+    margin-right: 10px;
+  
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input.error {
+    border: 2px solid red;
+}

@@ -1,0 +1,25 @@
+<html>
+<head>
+  <TITLE>Микола шекета ПІ-21-02</TITLE>
+</head>
+<body>
+<a href="#" onmouseover="showInput()">Наведи курсор сюди</a>
+
+<script>
+function showInput() {
+  let userInput = prompt("Введіть будь-який текст:");
+
+  if (userInput !== null) {
+    // Виведення результату в новому діалоговому вікні
+    alert("Ви ввели: " + userInput);
+
+    // Виведення результату в елемент на сторінці
+    // Приклад:
+    // document.getElementById("result").textContent = userInput;
+  } else {
+    alert("Ви скасували введення.");
+  }
+}
+</script>
+</body>
+</html>

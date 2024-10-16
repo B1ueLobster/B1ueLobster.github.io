@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#captcha-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background-color: #007BFF;
+    color: white;
+    line-height: 40px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
