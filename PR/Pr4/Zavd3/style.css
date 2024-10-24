@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+#textInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#startBtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#display {
+    font-size: 1.5rem;
+    border: 2px solid #333;
+    padding: 20px;
+    min-height: 50px;
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+.typewriter {
+    font-family: 'Courier New', monospace;
+}
