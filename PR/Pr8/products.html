@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товари для футболу</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation bar with cart icon -->
+    <header>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Product list -->
+    <div class="product-list">
+        <div class="product-card">
+            <img src="football1.jpg" alt="Футбольний м'яч">
+            <h3>Футбольний м'яч</h3>
+            <p>Ціна: 500 грн</p>
+            <button class="add-to-cart" data-id="1" data-name="Футбольний м'яч" data-price="500">Додати у корзину</button>
+        </div>
+        <div class="product-card">
+            <img src="cleats.jpg" alt="Футбольні бутси">
+            <h3>Футбольні бутси</h3>
+            <p>Ціна: 1200 грн</p>
+            <button class="add-to-cart" data-id="2" data-name="Футбольні бутси" data-price="1200">Додати у корзину</button>
+        </div>
+        <div class="product-card">
+            <img src="jersey.jpg" alt="Футбольна футболка">
+            <h3>Футбольна футболка</h3>
+            <p>Ціна: 700 грн</p>
+            <button class="add-to-cart" data-id="3" data-name="Футбольна футболка" data-price="700">Додати у корзину</button>
+        </div>
+        <div class="product-card">
+            <img src="shin-guards.jpg" alt="Щитки для футболу">
+            <h3>Щитки для футболу</h3>
+            <p>Ціна: 300 грн</p>
+            <button class="add-to-cart" data-id="4" data-name="Щитки для футболу" data-price="300">Додати у корзину</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

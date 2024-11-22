@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <div class="cart-container">
+        <h2>Корзина</h2>
+        <div id="cart-items">
+            <!-- Cart items will appear here -->
+        </div>
+
+        <div class="cart-total">
+            <p>Загальна сума: <span id="total-price">0</span> грн</p>
+            <button id="checkout-btn">Оплатити</button>
+            <button id="continue-shopping-btn">Повернутись до покупок</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
