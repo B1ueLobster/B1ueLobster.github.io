@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Екзамен варіант №18</title>
+</head>
+<body>
+    <h1>Як розподілити ПІБ з однієї строки вводу?</h1>
+
+    <!-- Поле вводу ПІБ -->
+    <label for="input">Введіть ПІБ через пробіл:</label>
+    <input type="text" id="input" placeholder="Тарасів Тарас Тарасович">
+
+    <!-- Таблиця результатів -->
+    <table>
+        <thead>
+            <tr>
+                <th>Прізвище</th>
+                <th>Ім'я</th>
+                <th>По батькові</th>
+            </tr>
+        </thead>
+        <tbody id="result">
+            <tr>
+                <td colspan="3">Немає даних</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="exam.js"></script>
+</body>
+</html>
